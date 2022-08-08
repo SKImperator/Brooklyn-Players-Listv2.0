@@ -1,0 +1,33 @@
+Body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "RocknRoll One", sans-serif;
+}
+.headerContainer {
+  background-color: #333333;
+  color: white;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: fit-content;
+
+  .logoImage {
+    width: auto;
+    height: 100px;
+  }
+  .navBar {
+    display: flex;
+    justify-content: space-around;
+
+    .aTag {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #ffffff;
+      padding: 8px;
+    }
+    .aTag:hover {
+      color: grey;
+    }
+  }
+}

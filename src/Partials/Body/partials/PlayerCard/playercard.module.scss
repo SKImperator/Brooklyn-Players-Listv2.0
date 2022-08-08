@@ -1,0 +1,69 @@
+.container {
+  height: 400px;
+  width: 412.84px;
+  border: #333333 solid 2px;
+
+  .imageContainer {
+    position: relative;
+    width: fit-content;
+    height: 300px;
+
+    .avatar {
+      height: 300px;
+      width: auto;
+    }
+
+    .infoContainerActive {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: black;
+      height: 300px;
+      width: 412.84px;
+      opacity: 1;
+      color: white;
+    }
+    .infoContainerInactive {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: black;
+      height: 300px;
+      width: 412.84px;
+      opacity: 0;
+      color: white;
+    }
+    .activeCloseIcon {
+      color: black;
+      cursor: pointer;
+      position: absolute;
+      top: 5%;
+      right: 5%;
+    }
+    .activeButton {
+      border: 1px solid black;
+      border-radius: 8px;
+      background-color: #333333;
+      color: #ffffff;
+      opacity: 0.9;
+      cursor: pointer;
+      position: absolute;
+      //-webkit-transform: translate(-50%, -50%);
+      //transform: translate(-50%, -50%);
+      right: 5%;
+      top: 5%;
+    }
+  }
+  .nameContainer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .numberPositionContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
